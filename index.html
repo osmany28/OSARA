@@ -1,0 +1,603 @@
+<header class="hero">
+  <div class="header-inner">
+    <div class="logo-block">
+      <img src="https://i.postimg.cc/QMgB6c92/temp-Imagecp-Jo-JE.avif" alt="Logo Osara" class="logo" />
+      <div class="title-block">
+        <h1 class="principal">OSARA</h1>
+        <p class="subtitulo">Tu próxima aventura comienza aquí</p>
+      </div>
+    </div>
+    <!-- Botón hamburguesa -->
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <!-- Menú -->
+    <nav class="menu" id="menu">
+      <a href="#destinos">DESTINOS</a>
+      <a href="#populares">POPULARES</a>
+      <a href="#reserva">RESERVA</a>
+      <a href="#testimonials">TESTIMONIOS</a>
+      <a href="#promos">PROMOS</a>
+    </nav>
+  </div>
+</header>
+
+<section class="bienvenida-osara">
+  <div class="contenido-bienvenida">
+    <h2>Bienvenido a OSARA</h2>
+    <p>Tu aventura comienza aquí. En OSARA, convertimos tus sueños de viajar en viajes inolvidables. Ya sea que busques explorar ciudades icónicas o relajarte en playas paradisíacas, estamos aquí para ayudarte a vivir experiencias únicas.</p>
+
+    <h3>¿Por qué elegirnos?</h3>
+    <p>Nos apasiona viajar y sabemos lo importante que es cada detalle. Te ofrecemos atención personalizada, opciones exclusivas gracias a nuestra red de intercambios vacacionales, y precios accesibles sin sacrificar calidad. ¡Con OSARA viajas con seguridad, emoción y estilo!</p>
+  </div>
+</section>
+
+<div id="destinos" class="contenedor-destinos principales">
+  <h2 class="titulo-destinos">🌍 Explora Nuestros Destinos</h2>
+  <div class="contenedor-destinos">
+
+    <div class="card-destino">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Cancún">
+      <div class="contenido-card">
+        <h3>Cancún</h3>
+        <p>Relájate en playas turquesa con todo incluido.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/tJbGwNGp/temp-Image4gah8g.avif" alt="Nueva York">
+      <div class="contenido-card">
+        <h3>Nueva York</h3>
+        <p>Explora la ciudad que nunca duerme con estilo urbano.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/sX02SymG/temp-Imageh-Rc2-Jt.avif" alt="París">
+      <div class="contenido-card">
+        <h3>París</h3>
+        <p>Descubre el romance, historia y cultura francesa.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+  </div>
+  <!-- Contenedor de destinos adicionales ocultos -->
+
+  <div class="contenedor-destinos extra-destinos" style="display: none;">
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/6QHPYRw1/temp-Imageq-IHaz-T.avif" alt="Colombia">
+      <div class="contenido-card">
+        <h3>Colombia</h3>
+        <p>Colores, cultura, café y paisajes encantadores.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/RFdZPgqx/temp-Image-ATtk3z.avif" alt="Puerto Rico">
+      <div class="contenido-card">
+        <h3>Puerto Rico</h3>
+        <p>Playas, música caribeña y alma latina vibrante.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/15DVw1Zf/temp-Image24ho5-C.avif" alt="Punta Cana">
+      <div class="contenido-card">
+        <h3>Punta Cana</h3>
+        <p>Resorts todo incluido en un paraíso tropical.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/ryhz4GsR/temp-Image-S6i-PBn.avif" alt="Costa Rica">
+      <div class="contenido-card">
+        <h3>Costa Rica</h3>
+        <p>Aventura, volcanes, selvas y playas vírgenes.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/sXgsf8p6/temp-Imagesvj-IRa.avif" alt="Brasil">
+      <div class="contenido-card">
+        <h3>Brasil</h3>
+        <p>Río, samba, carnaval y naturaleza sin igual.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/Bn369mwy/temp-Image-POn8-Rq.avif" alt="Argentina">
+      <div class="contenido-card">
+        <h3>Argentina</h3>
+        <p>Tango, vino y paisajes de los Andes al sur.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+
+    <div class="card-destino">
+      <img src="https://i.postimg.cc/8CjgqWD9/temp-Imagemx-Lud-V.avif" alt="Chile">
+      <div class="contenido-card">
+        <h3>Chile</h3>
+        <p>Desiertos, glaciares y ciudades vibrantes.</p>
+        <a href="#" class="btn-reservar">Reservar ahora</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Botón para mostrar/ocultar -->
+<div class="mas-info">
+  <button id="btn-mostrar" class="btn-mostrar-destinos">Mostrar más destinos</button>
+
+  <div class="mas-info">
+    <a href="https://wa.me/5214435252401?text=Hola%2C%20quiero%20más%20información%20sobre%20los%20destinos%20disponibles%20con%20Osara." target="_blank" class="btn-mas-info">
+      MÁS INFORMACIÓN
+    </a>
+  </div>
+  </section>
+
+  <section id="novedades" class="novedades-section">
+    <h2 class="novedades-title">✨ NOVEDADES</h2>
+    <div class="novedades-content">
+      <p>
+        ¡Grandes descuentos en <strong>TODOS</strong> los destinos de México!<br>
+        Aprovecha hasta un <strong>50% OFF</strong> y vive la magia de nuestro país.
+      </p>
+      <a href="#reserva" class="btn-cotizar">Cotizar</a>
+    </div>
+  </section>
+
+  <section id="populares" class="popular-grid">
+    <section class="popular-grid">
+      <h2 class="popular-grid__title">✈️ Destinos Populares</h2>
+      <div class="popular-grid__cards">
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/JzrzHD9f/temp-Image4-Lmd-FL.avif" alt="Chicago">
+          <div class="popular-card__info">
+            <h3>Chicago</h3>
+            <p>Estados Unidos🇺🇸</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/fbxjQ7qN/temp-Imageo-Qc1cg.avif" alt="Río de Janeiro">
+          <div class="popular-card__info">
+            <h3>Río de Janeiro</h3>
+            <p>Brasil🇧🇷</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/wMN72CVn/temp-Image-Liz7w-C.avif" alt="Estambul">
+          <div class="popular-card__info">
+            <h3>Estambul</h3>
+            <p>Turquía🇹🇷</p>
+          </div>
+        </div>
+        <!-- …más tarjetas… -->
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/sx01VV2B/temp-Image-Gjmof0.avif" alt="Puerto Vallarta">
+          <div class="popular-card__info">
+            <h3>Puerto Vallarta</h3>
+            <p>México🇲🇽</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/pLk0B4y0/temp-Imageyg-JXE7.avif" alt="Machu Picchu">
+          <div class="popular-card__info">
+            <h3>Machu Picchu</h3>
+            <p>Perú🇵🇪</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/Pq7nSPNF/temp-Imageehx-L8b.avif" alt="Amsterdam">
+          <div class="popular-card__info">
+            <h3>Amsterdam</h3>
+            <p>Países Bajos🇳🇱</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/RhHtW6nr/temp-Imageu5-DX2-Z.avif" alt="egipto">
+          <div class="popular-card__info">
+            <h3>El Cairo</h3>
+            <p>Egipto🇪🇬</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/T3MVjjrH/temp-Imageg9-OTa-U.avif" alt="Chichén Itzá">
+          <div class="popular-card__info">
+            <h3>Yucatan</h3>
+            <p>México🇲🇽</p>
+          </div>
+        </div>
+        <div class="popular-card">
+          <img src="https://i.postimg.cc/mDmDk4wG/temp-Image-J5-QJs4.avif" alt="Londres">
+          <div class="popular-card__info">
+            <h3>Londres</h3>
+            <p>Reino Unido🇬🇧</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mueve este script justo al final de tu HTML -->
+    <script>
+      window.onload = function() {
+        const slider = document.getElementById('carrusel');
+        let index = 0;
+        const total = slider.children.length;
+        setInterval(() => {
+          index = (index + 1) % total;
+          slider.style.transform = 'translateX(-' + (index * 100) + '%)';
+        }, 3000);
+      };
+    </script>
+
+    <section id="reserva" class="reserva-viaje">
+
+      <div class="contenido-reserva">
+        <h2 class="titulo-reserva">🧳 Reserva tu viaje con OSARA✈️</h2>
+        <p>Disfruta unas vacaciones inolvidables a destinos increíbles. ¡Estamos para ayudarte a planear tu próxima aventura!</p>
+      </div>
+    </section>
+
+    <!-- ——— En el <head> de tu página ——— -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- ——— Sección de Cotización (inserta dentro de tu <body>) ——— -->
+    <div class="quote-container">
+      <form class="quote-form" id="quoteForm" novalidate>
+        <div class="form-header">
+          <h2>SOLICITA TU COTIZACIÓN</h2>
+        </div>
+        <div class="form-body">
+          <div class="form-group">
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" name="name" placeholder="Juan Pérez" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="+52 1 443 5252401" required>
+          </div>
+          <div class="form-group">
+            <label for="destination">Destino</label>
+            <input type="text" id="destination" name="destination" placeholder="Escribe tu destino" required>
+          </div>
+          <div class="form-group">
+            <label for="arrivalDate">Fecha de llegada</label>
+            <input type="text" id="arrivalDate" name="arrivalDate" placeholder="Selecciona llegada" required>
+          </div>
+          <div class="form-group">
+            <label for="departureDate">Fecha de salida</label>
+            <input type="text" id="departureDate" name="departureDate" placeholder="Selecciona salida" required>
+          </div>
+          <div class="form-group grupo-cantidad">
+            <div style="flex:1; margin-right:8px;">
+              <label for="adults">Adultos</label>
+              <input type="number" id="adults" name="adults" placeholder="0">
+            </div>
+            <div style="flex:1; margin-right:8px;">
+              <label for="minors">Menores</label>
+              <input type="number" id="minors" name="minors" placeholder="0">
+            </div>
+            <div style="flex:1;">
+              <label for="children">Niños</label>
+              <input type="number" id="children" name="children" placeholder="0">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="details">Detalles Adicionales</label>
+            <textarea id="details" name="details" rows="3" placeholder="¿Alguna preferencia? (opcional)"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">COTIZAR</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- ——— Justo antes de </body> ——— -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script>
+      // Inicializa ambos calendarios
+      flatpickr('#arrivalDate', {
+        minDate: 'today',
+        altInput: true,
+        altFormat: 'd \\de F, Y',
+        dateFormat: 'Y-m-d'
+      });
+      flatpickr('#departureDate', {
+        minDate: 'today',
+        altInput: true,
+        altFormat: 'd \\de F, Y',
+        dateFormat: 'Y-m-d'
+      });
+      document.getElementById('quoteForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // recoge valores
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const phone = document.getElementById('phone').value.trim();
+        const dest = document.getElementById('destination').value;
+        const arrival = document.getElementById('arrivalDate').value;
+        const departure = document.getElementById('departureDate').value;
+        const adults = document.getElementById('adults').value.trim() || '0';
+        const minors = document.getElementById('minors').value.trim() || '0';
+        const children = document.getElementById('children').value.trim() || '0';
+        const details = document.getElementById('details').value.trim() || 'Ninguno';
+        // validación de obligatorios
+        if (!name || !email || !phone || !dest || !arrival || !departure) {
+          alert('Por favor completa todos los campos obligatorios.');
+          return;
+        }
+        // arma mensaje para WhatsApp
+        const msg =
+          '✈️ *Cotización Agencia* ✈️\n\n' +
+          '👤 Nombre: ' + name + '\n' +
+          '✉️ Correo: ' + email + '\n' +
+          '📱 Teléfono: ' + phone + '\n' +
+          '📍 Destino: ' + dest + '\n' +
+          '🗓 Llegada: ' + arrival + '\n' +
+          '🗓 Salida: ' + departure + '\n' +
+          '👨 Adultos: ' + adults + '\n' +
+          '👶 Menores: ' + minors + '\n' +
+          '🧒 Niños: ' + children + '\n' +
+          '💬 Detalles: ' + details;
+        // abre WhatsApp
+        const waNumber = '5214435252401';
+        const url = `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`;
+        window.open(url, '_blank');
+      });
+    </script>
+
+    <!-- HTML: sección de promociones -->
+    <div class="carousel js-flickity" data-flickity='{ "cellAlign":"left", "contain":true, "prevNextButtons":true, "groupCells":true }'>
+      <!-- tus .promo-card aquí -->
+    </div>
+    <section id="promos" class="promotions-section">
+      <h2 class="promotions-title">
+        <span class="gift-icon">🎁</span>
+        ¡Promociones que no <span>puedes</span> perder!
+        <span class="discount-tag">💥 HASTA -73% OFF 💥</span>
+        <span class="gift-icon">🎁</span>
+      </h2>
+
+      <!-- Flickity carousel -->
+      <div class="carousel js-flickity" data-flickity='{
+         "cellAlign": "left",
+         "contain": true,
+         "pageDots": false,
+         "prevNextButtons": true,
+         "groupCells": 3
+       }'>
+
+        <div class="promo-card">
+          <img src="https://i.postimg.cc/3JmWjxbX/temp-Imagexie-B2x.avif" alt="PARÍS" class="promo-image">
+          <div class="promo-overlay">
+            <h3>PARÍS</h3>
+            <p>73% de Descuento</p>
+            <a href="#" class="promo-btn">Ver detalles</a>
+          </div>
+        </div>
+        <div class="promo-card">
+          <img src="https://i.postimg.cc/qqQbWT1j/temp-Imagepy-K5-Pn.avif" alt="DUBAI" class="promo-image">
+          <div class="promo-overlay">
+            <h3>DUBAI</h3>
+            <p>63% de Descuento</p>
+            <a href="#" class="promo-btn">Ver detalles</a>
+          </div>
+        </div>
+        <div class="promo-card">
+          <img src="https://i.postimg.cc/MTS9TT49/temp-Imageq-Wvts-B.avif" alt="ORLANDO" class="promo-image">
+          <div class="promo-overlay">
+            <h3>ORLANDO</h3>
+            <p>53% de Descuento</p>
+            <a href="#" class="promo-btn">Ver detalles</a>
+          </div>
+        </div>
+        <div class="promo-card">
+          <img src="https://i.postimg.cc/9Q32pPq0/temp-Image6-Fl-NIa.avif" alt="LAS VEGAS" class="promo-image">
+          <div class="promo-overlay">
+            <h3>LAS VEGAS</h3>
+            <p>49% de Descuento</p>
+            <a href="#" class="promo-btn">Ver detalles</a>
+          </div>
+        </div>
+        <div class="promo-card">
+          <img src="https://i.postimg.cc/qv6pwQL6/temp-Imageg-RH67-Z.avif" alt="ROMA" class="promo-image">
+          <div class="promo-overlay">
+            <h3>ROMA</h3>
+            <p>36% de Descuento</p>
+            <a href="#" class="promo-btn">Ver detalles</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h2 class="testimonials-title">Lo que dicen nuestros viajeros</h2>
+
+      <!-- Flickity carousel con 5 cards -->
+      <div class="carousel js-flickity" data-flickity='{
+         "cellAlign":"center",
+         "contain":true,
+         "prevNextButtons":true,
+         "pageDots":true,
+         "autoPlay":6000,
+         "wrapAround":true,
+         "groupCells":1
+       }'>
+
+        <!-- Testimonio 1 -->
+        <div class="testimonial-card">
+          <p class="testimonial-content">
+            “La experiencia con Osara fue increíble: todo planificado al detalle,
+            excelente atención y unos paisajes de ensueño. ¡Volveré pronto!”
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/50" alt="Ana Pérez">
+            <div class="author-info">
+              <h3>Andrea Pérez</h3>
+              <p>Ciudad de México, MX</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="testimonial-card">
+          <p class="testimonial-content">
+            “Reservar con Osara fue facilísimo. El hotel espectacular y el precio imbatible.
+            Súper recomendado.”
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/50" alt="Luis Gómez">
+            <div class="author-info">
+              <h3>Luis Gómez</h3>
+              <p>Guadalajara, MX</p>
+              <div class="stars">★★★★☆</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="testimonial-card">
+          <p class="testimonial-content">
+            “Servicio de primera, guías muy profesionales y recorridos inolvidables.
+            Gracias Osara por estas vacaciones.”
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/50" alt="María Ruiz">
+            <div class="author-info">
+              <h3>María Ruiz</h3>
+              <p>Monterrey, MX</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 4 -->
+        <div class="testimonial-card">
+          <p class="testimonial-content">
+            “El soporte de Osara antes y durante mi viaje fue excepcional. Todo sin sorpresas,
+            ¡100% recomendado!”
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/50" alt="Carlos Méndez">
+            <div class="author-info">
+              <h3>Carlos Méndez</h3>
+              <p>León, MX</p>
+              <div class="stars">★★★★☆</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 5 -->
+        <div class="testimonial-card">
+          <p class="testimonial-content">
+            “Los hoteles y actividades superaron mis expectativas. Un servicio amable y
+            precios muy competitivos. ¡Volveré!”
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/50" alt="Lucía Díaz">
+            <div class="author-info">
+              <h3>Lucía Díaz</h3>
+              <p>Querétaro, MX</p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Formulario para dejar un testimonio -->
+      <div class="testimonial-form-container">
+        <h3>Comparte tu experiencia</h3>
+        <form id="testimonial-form">
+          <label>
+            Nombre
+            <input type="text" name="name" required placeholder="Tu nombre">
+          </label>
+          <label>
+            Ciudad
+            <input type="text" name="city" required placeholder="Tu ciudad">
+          </label>
+          <label>
+            Calificación
+            <select name="rating" required>
+              <option value="">Selecciona</option>
+              <option value="5">★★★★★</option>
+              <option value="4">★★★★☆</option>
+              <option value="3">★★★☆☆</option>
+              <option value="2">★★☆☆☆</option>
+              <option value="1">★☆☆☆☆</option>
+            </select>
+          </label>
+          <label>
+            Tu testimonio
+            <textarea name="content" rows="4" required placeholder="Escribe tu opinión aquí…"></textarea>
+          </label>
+          <button type="submit">Enviar Testimonio</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- …tu HTML anterior… -->
+
+    <!-- Al final del body, justo antes de cerrar: -->
+    <script>
+      // Selecciona todas las slides
+      const slides = document.querySelectorAll('.slideshow .slide');
+      let current = 0;
+      // Muestra la primera
+      slides[current].classList.add('active');
+      // Cambia cada 8 segundos
+      setInterval(() => {
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+      }, 5000);
+    </script>
+    </body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var btn = document.getElementById('btn-mostrar');
+        var extra = document.querySelector('.extra-destinos');
+        if (!btn || !extra) {
+          console.error('No encontré #btn-mostrar o .extra-destinos');
+          return;
+        }
+        // Arranca oculto si no lo hace el CSS
+        extra.style.display = 'none';
+        btn.addEventListener('click', function() {
+          // Alterna inline entre flex y none
+          if (getComputedStyle(extra).display === 'none') {
+            extra.style.display = 'flex';
+            btn.textContent = 'Mostrar menos destinos';
+          } else {
+            extra.style.display = 'none';
+            btn.textContent = 'Mostrar más destinos';
+          }
+        });
+      });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pQHc6kzsu8gZjE1Jy3Vj7I3tMZD3Q+UYz/scG+9IG1vR6qsPewlE0y4AuLG+vbK1i3SokyRV4PG4L8fk0Y1flA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <section class="social-section">
+      <div class="social-container">
+        <a href="https://www.facebook.com/tuPagina" target="_blank" class="social-link facebook" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/tuUsuario" target="_blank" class="social-link instagram" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/5214435252401" target="_blank" class="social-link whatsapp" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </section>
